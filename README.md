@@ -2,6 +2,9 @@
 
 ## Git
 
+- [A memory leak in `fetch_and_setup_pack_index()` when verification of the downloaded pack index fails has been plugged. Also an obsolete `unlink()` call on parse failure has been cleaned up.](https://lore.kernel.org/git/cover.1780321770.git.lorenzo.pegorari2002@gmail.com/)
+    - `18decad9` (http: fix memory leak in fetch_and_setup_pack_index(), 2026/06/02)
+    - `96ee7f16` (http: cleanup function fetch_and_setup_pack_index(), 2026/06/02)
 - [Doc update.](https://lore.kernel.org/git/cover.1772502209.git.lorenzo.pegorari2002@gmail.com/)
     - `a56fa1ca` (doc: gitprotocol-pack: normalize italic formatting, 2026/03/03)
     - `b8091b79` (doc: gitprotocol-pack: improve paragraphs structure, 2026/03/03)
