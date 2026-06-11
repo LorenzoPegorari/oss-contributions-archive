@@ -1,6 +1,6 @@
 <h1 align="center">My OSS Contributions</h1>
 
-## Git
+## [Git](https://github.com/git/git)
 
 - [A memory leak in `fetch_and_setup_pack_index()` when verification of the downloaded pack index fails has been plugged. Also an obsolete `unlink()` call on parse failure has been cleaned up.](https://lore.kernel.org/git/cover.1780321770.git.lorenzo.pegorari2002@gmail.com/)
     - `18decad9` (http: fix memory leak in fetch_and_setup_pack_index(), 2026/06/02)
